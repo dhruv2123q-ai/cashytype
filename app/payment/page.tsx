@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 export default function Payment(){return <main className="formArea"><div className="container"><div className="formCard" style={{padding:0,overflow:"hidden",maxWidth:760}}>
 <section className="paymentTop"><div className="brand" style={{color:"#fff"}}><span className="brandIcon" style={{background:"#fff",color:"#078d27"}}>⌨</span>CashyType</div><h1>Registration</h1><p>One-time registration fee</p><div className="price">₹99 <span style={{fontSize:16,fontWeight:500}}>one-time</span></div><ul className="features"><li>✓ Account access</li><li>✓ Task marketplace access</li><li>✓ Profile and progress tools</li><li>✓ Support through published channels</li></ul></section>
